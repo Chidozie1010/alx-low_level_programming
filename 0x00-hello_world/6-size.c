@@ -13,10 +13,10 @@ int main(void)
 	long long int r;
 	float f;
 
-	printf("size of a char: %lubyte(s)\n", (unsigned long)size of (q));
-	printf(size of an int: %lubyte(s)\n", (unsigned long)size of(w));
-	printf("size of a long int: %lubyte(s)\n", (unsigned long)size of(e));
-	printf("size of a long long int: %lubyte(s)\n", (unsigned long)size of(r));
-	printf("size of a float: %lubyte(s)\n", (unsigned long)size of(f));
+	printf("size of a char: %Lubyte(s)\n", (unsigned long)size of (q));
+	printf(size of an int: %Lubyte(s)\n", (unsigned long)size of(w));
+	printf("size of a long int: %Lubyte(s)\n", (unsigned long)size of(e));
+	printf("size of a long long int: %Lubyte(s)\n", (unsigned long)size of(r));
+	printf("size of a float: %Lubyte(s)\n", (unsigned long)size of(f));
 	Return (0);
 }
