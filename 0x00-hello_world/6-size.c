@@ -3,7 +3,7 @@
 /**
  * main	-	 entry point
  * Return:	Always	0(Success)
- * */
+ * /
 int	main(void)
 {
 	printf("size	of	a	char:	%llu	bytes(s)\n",	sizeof(char));
