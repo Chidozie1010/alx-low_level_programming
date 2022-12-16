@@ -2,7 +2,7 @@
 
 /**
  * main - tests functions that prints if integar is positive or negative
- * Return: 0.
+ * Return: 0
  */
 
 int main(void)
