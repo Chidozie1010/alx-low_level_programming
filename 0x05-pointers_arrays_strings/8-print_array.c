@@ -2,19 +2,19 @@
 #include <stdio.h>
 
 /**
- * print_array - prints n elements of an array of integers.
- * @a: int to check
- * @n: int to check
- * Return: 0 is success
+ * print_array - Function prints elements of array of integers.
+ * @a: Pointer parameter
+ * @n: integer variable
  */
 void print_array(int *a, int n)
 {
-	int x;
+	int i = 0;
 
-	for (x = 0; x < n; x++)
-		if (x != n - 1)
-			printf("%d, ", a[x]);
-		else
-			printf("%d,", a[x]);
+	for (; i < n; i++)
+	{
+		printf("%d", *(a + i));
+		if (i != (n - 1))
+			printf(", ");
+	}
 	printf("\n");
 }
