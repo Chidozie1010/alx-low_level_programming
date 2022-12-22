@@ -11,7 +11,7 @@ char *cap_string(char *s)
 {
 	int count;
 
-	count 0;
+	count = 0;
 	while (s[count] != '\0')
 	{
 		if (s[0] >= 97 && s[0] <= 122)
