@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	total = atoi(argv[1]); /*convert str to int*/
+	total = atoi(argv[1]); /*Covert str to int*/
 
 	if (total <= 0)
 	{
