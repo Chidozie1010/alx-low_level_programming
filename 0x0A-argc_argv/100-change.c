@@ -3,7 +3,7 @@
 /**
  * main - function
  * @agrc: length of argv
- * @argv: number of arguments
+ * @argv: number of argument
  * Return: Always 0
  */
 int main(int argc, char *argv[])
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	/*Declaring while*/
+	/*Declaring While*/
 	while (coins[position] != '\0')
 	{
 		if (total >= coins[position])
