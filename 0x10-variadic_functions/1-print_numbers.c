@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- * prints_numbers - prints num
+ * print_numbers - prints num
  * @separator: pointer param
  * @n: param
  */
