@@ -1,5 +1,5 @@
-#ifndef _LISTS
-#define _LISTS
+#ifndef LISTS_H
+#define LISTS_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -10,11 +10,9 @@
  * @len: length of the string
  * @next: points to the next node
 *
- * Description: All prototypes used in the singly linked directory
- * are contained here and is part of the necessities for successful
-* program compilation.
+ * Description: singly linked list node structure
 */
-typedef structlist_s
+typedef struct list_s
 {
 	char *str;
 	unsigned int len;
