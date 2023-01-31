@@ -1,16 +1,18 @@
 #include "lists.h"
+
 /**
-* free_listint - frees a linked list
-* @head: pointer to the 1st node of the linked list to be freed
-*/
+ * free_listint - frees a linked list
+ * @head: head of a list.
+ *
+ * Return: no return.
+ */
 void free_listint(listint_t *head)
 {
 	listint_t *temp;
 
-	while (head)
+	while ((temp = head) != NULL)
 	{
-	temp = head->next;
-	free(head);
-	head = temp;
+		head = head->next;
+		free(temp);
 	}
 }
