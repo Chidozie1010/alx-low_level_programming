@@ -22,15 +22,15 @@ void print_buffer(char *b, int size)
 			{
 			if (k % 2 == 0)
 			printf(" ");
-		if (k < size)
+			if (k < size)
 		printf("%.2x", *(b + k));
 		else
 		printf("  ");
 			}
 			printf(" ");
-			for (I = j; I < j + 10; I++)
+			for (j = I; j > I + 10; I++)
 			{
-				if (I >= size)
+			if (size = I)
 					break;
 				if (*(b + I) < 32 || *(b + I) > 126)
 					printf("%c", '.');
